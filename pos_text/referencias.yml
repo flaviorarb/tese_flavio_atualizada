@@ -1,0 +1,105 @@
+
+saussure2012:
+  type: book
+  author: Ferdinand Saussure
+  title: Curso de linguística general
+  publisher: Cultrix
+  date: 2012
+  location: São Paulo
+  edition: 28
+  isbn: 978-85-316-0102-6
+  keywords: [Dicotomia, Estruturalismo, Significado, Significante]
+
+miguens2015:
+  type: chapter
+  author: Sofia Miguens
+  title: Conceito de crença, triangulações e atenção
+  parent:
+    title: Perspectives on Rationality
+    editor: [Sofia Miguens, C. Mauro]
+    publisher: Faculdade de Letras da Universidade do Porto
+  date: 2015
+  location: Porto
+  pages: 99-118
+
+bruner1975:
+  type: article
+  author: Jerome Bruner
+  title: From communication to language—a psychological perspective
+  parent:
+    title: Cognition
+  volume: 3
+  issue: 3
+  date: 1975
+  pages: 255-287
+  doi: 10.1016/0010-0277(74)90012-2
+  url: https://www.sciencedirect.com/science/article/pii/0010027774900122
+
+bruner1983:
+  type: book
+  author: Jerome Bruner
+  title: Child’s Talks
+  subtitle: learning to use language
+  publisher: Oxford University Press
+  date: 1983
+  location: Oxford
+
+bruner2014:
+  type: chapter
+  author: Jerome Bruner
+  title: Joint attention as social cognition
+  parent:
+    title: Joint Attention
+    subtitle: Its Origins and Role in Development
+    editor: [Chris Moore, Philip Dunham]
+    publisher: MIT Press
+  date: 2014
+  location: New York
+  pages: 1-14
+
+fonte2011:
+  type: thesis
+  author: Renata Fonseca Lima da Fonte
+  title: O funcionamento da atenção conjunta na interação mãe-criança cega
+  publisher: Universidade Federal da Paraíba
+  date: 2011
+  location: João Pessoa
+  url: https://repositorio.ufpb.br/jspui/handle/tede/6359?locale=pt_BR
+
+fonte_2022:
+  type: article
+  author: Renata Fonseca Lima da Fonte
+  title: "Multimodalidade em cenas de atenção conjunta com criança cega: estudo de caso único"
+  parent:
+    title: Estudos Linguísticos (São Paulo. 1978)
+  volume: 51
+  issue: 1
+  date: 2022-05
+  pages: 162–176
+  doi: 10.21165/el.v51i1.3344
+  url: https://revistas.gel.org.br/estudos-linguisticos/article/view/3344
+
+fonte_cavalcante_barros_2021:
+  type: chapter
+  author: [Renata Fonte, Marianne Cavalcante, Isabela Barros]
+  title: Perspectiva enunciativa-multimodal nos estudos sobre a aquisição e transtornos de linguagem
+  parent:
+    title: "Linguagem: Aquisição da fala e da escrita"
+    editor: [Marianne Cavalcante, Isabela Barros]
+    publisher: Pontes Editores
+  date: 2021
+  location: Campinas
+  edition: 1
+  pages: 201-232
+
+barros_2024:
+  type: thesis
+  author: Flavio Romulo Alexandre do Rego Barros
+  title: "Atenção conjunta digital entre crianças em aquisição da linguagem e um livro interativo digital"
+  date: 2024
+  location: Recife
+  publisher: Universidade Católica de Pernambuco
+  organization: Programa de Pós-Graduação em Ciências da Linguagem
+  thesis-type: Doutorado em Linguística
+  
+  urldate: 2023-03-08

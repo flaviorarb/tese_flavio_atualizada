@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documents by Subject Area - Vector Chart</title>
+  <style>
+    :root {
+      --bg-color: #f8f9fa;
+      --card-bg: #ffffff;
+      --text-main: #2b2b2b;
+      --border-color: #e2e8f0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      margin: 0;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .dashboard-container {
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      padding: 30px;
+      max-width: 1200px;
+      width: 100%;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 25px;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 15px;
+    }
+
+    .header h1 {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 0;
+      color: #0277bd;
+    }
+
+    .layout-grid {
+      display: grid;
+      grid-template-columns: 380px 1fr;
+      gap: 30px;
+      align-items: start;
+    }
+
+    /* Tabela */
+    .table-container {
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      overflow: hidden;
+      max-height: 520px;
+      overflow-y: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th, td {
+      padding: 10px 14px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f1f5f9;
+      color: #475569;
+      font-weight: 600;
+      border-bottom: 2px solid var(--border-color);
+      position: sticky;
+      top: 0;
+    }
+
+    th.num, td.num {
+      text-align: right;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+
+    tr:hover {
+      background-color: #e2e8f0;
+    }
+
+    td.num {
+      color: #0284c7;
+      font-weight: 600;
+    }
+
+    /* Gráfico Vetorial SVG */
+    .chart-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      min-height: 500px;
+    }
+
+    .chart-title {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      align-self: flex-start;
+      color: #334155;
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+      max-width: 650px;
+      max-height: 500px;
+      overflow: visible;
+    }
+
+    .slice {
+      transition: transform 0.2s ease, opacity 0.2s ease;
+      cursor: pointer;
+      stroke: #ffffff;
+      stroke-width: 1.5px;
+    }
+
+    .slice:hover {
+      transform: scale(1.03);
+      opacity: 0.9;
+    }
+
+    .label-line {
+      fill: none;
+      stroke-width: 1.2px;
+      opacity: 0.7;
+    }
+
+    .label-text {
+      font-size: 12px;
+      font-weight: 500;
+      fill: #1e293b;
+    }
+
+    @media (max-width: 900px) {
+      .layout-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="dashboard-container">
+  <div class="header">
+    <h1>2,551 document results</h1>
+  </div>
+
+  <div class="layout-grid">
+    <!-- Tabela de Dados -->
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Subject area &darr;</th>
+            <th class="num">Documents &darr;</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Gerado via JS -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Gráfico Vetorial SVG -->
+    <div class="chart-container">
+      <div class="chart-title">Documents by subject area</div>
+      <svg id="pie-chart" viewBox="-300 -250 600 500"></svg>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Dados extraídos da imagem
+  const dataset = [
+    { label: "Psychology", count: 1195, percent: 25.7, color: "#0088cc" },
+    { label: "Medicine", count: 606, percent: 13.0, color: "#b83b43" },
+    { label: "Computer Science", count: 579, percent: 12.4, color: "#7a9a60" },
+    { label: "Social Sciences", count: 567, percent: 12.2, color: "#8358a4" },
+    { label: "Neuroscience", count: 399, percent: 8.6, color: "#d9531e" },
+    { label: "Arts and Humanities", count: 385, percent: 8.3, color: "#76d7c4" },
+    { label: "Engineering", count: 235, percent: 5.1, color: "#9e2a2b" },
+    { label: "Health Professions", count: 127, percent: 2.7, color: "#e3b505" },
+    { label: "Mathematics", count: 124, percent: 2.7, color: "#dd8560" },
+    { label: "Biochemistry, Genetics and Molecular Biology", count: 100, percent: 2.1, color: "#6b2d5c" },
+    { label: "Other", count: 334, percent: 7.2, color: "#388e3c" }
+  ];
+
+  // 1. Preencher a tabela
+  const tableBody = document.getElementById("table-body");
+  dataset.forEach(item => {
+    const row = document.createElement("tr");
+    row.innerHTML = `<td>${item.label}</td><td class="num">${item.count}</td>`;
+    tableBody.appendChild(row);
+  });
+
+  // 2. Gerar Gráfico de Pizza Vetorial em SVG Nativo
+  const svg = document.getElementById("pie-chart");
+  const radius = 160;
+  let cumulativeAngle = -Math.PI / 2; // Começar do topo (-90 deg)
+
+  dataset.forEach(item => {
+    const sliceAngle = (item.percent / 100) * (2 * Math.PI);
+    const startAngle = cumulativeAngle;
+    const endAngle = cumulativeAngle + sliceAngle;
+    const middleAngle = startAngle + sliceAngle / 2;
+
+    // Coordenadas das fatias
+    const x1 = radius * Math.cos(startAngle);
+    const y1 = radius * Math.sin(startAngle);
+    const x2 = radius * Math.cos(endAngle);
+    const y2 = radius * Math.sin(endAngle);
+
+    const largeArcFlag = sliceAngle > Math.PI ? 1 : 0;
+
+    // Caminho vetorial (Path SVG)
+    const pathData = [
+      `M 0 0`,
+      `L ${x1} ${y1}`,
+      `A ${radius} ${radius} 0 ${largeArcFlag} 1 ${x2} ${y2}`,
+      `Z`
+    ].join(' ');
+
+    // Criar elemento <path> da fatia
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", pathData);
+    path.setAttribute("fill", item.color);
+    path.setAttribute("class", "slice");
+    
+    // Tooltip nativo
+    const title = document.createElementNS("http://www.w3.org/2000/svg", "title");
+    title.textContent = `${item.label}: ${item.count} docs (${item.percent}%)`;
+    path.appendChild(title);
+    
+    svg.appendChild(path);
+
+    // Linhas de chamada e Rótulos (Callout lines & text)
+    const labelRadius = radius + 20;
+    const breakRadius = radius + 35;
+    
+    const lx1 = radius * Math.cos(middleAngle);
+    const ly1 = radius * Math.sin(middleAngle);
+    const lx2 = labelRadius * Math.cos(middleAngle);
+    const ly2 = labelRadius * Math.sin(middleAngle);
+
+    const isRightSide = Math.cos(middleAngle) >= 0;
+    const lx3 = isRightSide ? lx2 + 25 : lx2 - 25;
+
+    // Linha
+    const polyline = document.createElementNS("http://www.w3.org/2000/svg", "polyline");
+    polyline.setAttribute("points", `${lx1},${ly1} ${lx2},${ly2} ${lx3},${ly2}`);
+    polyline.setAttribute("class", "label-line");
+    polyline.setAttribute("stroke", item.color);
+    svg.appendChild(polyline);
+
+    // Texto do Rótulo
+    const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    text.setAttribute("x", isRightSide ? lx3 + 5 : lx3 - 5);
+    text.setAttribute("y", ly2 + 4);
+    text.setAttribute("text-anchor", isRightSide ? "start" : "end");
+    text.setAttribute("class", "label-text");
+
+    // Encurtar texto se for muito longo
+    let shortLabel = item.label.length > 20 ? item.label.substring(0, 18) + '...' : item.label;
+    text.textContent = `${shortLabel} (${item.percent.toFixed(1)}%)`;
+
+    svg.appendChild(text);
+
+    cumulativeAngle += sliceAngle;
+  });
+</script>
+
+</body>
+</html>
