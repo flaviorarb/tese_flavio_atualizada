@@ -8,17 +8,17 @@
 #v(1cm)
 
 Esta #tipoMonografia(1) foi considerada apta para a obtenção do título de #titulacao(1) em Ciências da Linguagem, sendo aprovada em sua redação final pela banca examinadora. 
-#v(0.2cm)
+#v(0.9cm)
 
 #align(center)[
     #cidade, 05 abril de #ano.\
 ]
 
-#v(0.2cm)
+#v(0.9cm)
 #align(center)[
     *Banca Examinadora:*
 ]
-
+#v(0.5cm)
 
 
 
