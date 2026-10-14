@@ -53,18 +53,18 @@
       inset: 5pt,
       align: left + horizon,
       [B227a], [Barros, Flavio Romulo Alexandre do Rego.],
-      [], [Atenção conjunta digital entre crianças em aquisição da linguagem e um livro interativo digital / Flavio Romulo   Alexandre do Rego Barros, 2024.
+      [], [#h(0.7cm) Atenção conjunta digital entre crianças em aquisição da linguagem e um livro interativo digital / Flavio Romulo   Alexandre do Rego Barros, 2024.
 
       193 f. : il.
 
-      Orientador: Renata Fonseca Lima da Fonte.
+      #h(0.7cm) Orientador: Renata Fonseca Lima da Fonte.
       
-      Coorientador: Marianne Carvalho Bezerra Cavalcante.
+      #h(0.7cm) Coorientador: Marianne Carvalho Bezerra Cavalcante.
       
-      Tese (Doutorado) - Universidade Católica de Pernambuco.\
+      #h(0.7cm) Tese (Doutorado) - Universidade Católica de Pernambuco.\
       Programa de Pós-graduação em Ciências da Linguagem.\ 
       Doutorado em Ciências da Linguagem, 2024.],
-      [],[1. Aquisição de linguagem. 2. Livros didáticos digitais.3. Multimodalidade (Linguística). 4. Atenção conjunta. Título.],
+      [],[#h(0.7cm) 1. Aquisição de linguagem. 2. Livros didáticos digitais.3. Multimodalidade (Linguística). 4. Atenção conjunta. Título.],
             [],[#align(right)[CDU 800.85]],
             [],[#align(right)[Pollyanna Alves - CRB/4-1002]],
     ),

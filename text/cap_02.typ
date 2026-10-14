@@ -66,8 +66,74 @@ several basic dimensions of development. Adamson and Bakeman (l991) have argued 
 
 // #cite(<Moore1995JointAttention> [p. 15])
 
-pagina 44
+A Figura 10 a seguir demonstra a atenção compartilhada no formato triádico onde estão presentes dois indivíduos com um foco atencional em comum. Baron-Cohen (1983) classifica esse fenômeno como Mecanismo de Atenção Compartilhada #footnote[Termo traduzido do inglês: Shared Attention Mechanism (or SAM).]
+ (MAC)
 
+    #figure(
+      image("../assets/imagens/Interacao_triadica.png", height: 5cm), 
+      caption: [Interação triádica.]
+    ) <Interacao_triadica>
+
+
+A AC triádica ocorre entre dois sujeitos que estão representados pela figura de uma
+boneca que representa a mãe (cuidador) e a figura de um boneco que está representando o bebê,
+ambos estão ligados por duas setas paralelas que representam os engajamentos entre os dois.
+Baron-Cohen (2014) afirma que essas representações triádicas diferem em estrutura das
+representações diádicas porque incluem um novo elemento que se incorpora ao processo e é a
+confirmação de que os dois sujeitos estão conjuntamente prestando atenção ao mesmo objeto.
+O autor fala sobre duas representações que estão sendo demonstradas pelas setas, conforme
+podemos observar na @Relacao_bidirecional_mutua.
+
+#figure(
+      image("../assets/imagens/Relacao_bidirecional_mutua.png", height: 5cm), 
+      caption: [Relação bidirecional
+ mútua.]
+    ) <Relacao_bidirecional_mutua>
+
+As setas paralelas, em destaque na cor preta, uma abaixo da outra com sentidos opostos
+#box(height: 1.2em, baseline: 20%, image("../assets/imagens/xxx.png")), Baron-Cohen (#cite(<baroncohen2014eye>, form: "year")) chama de representação de autorrelação (Agente1-Relação-
+Agente2) na qual ambos os termos de relação são bidirecionais mútuos, ou seja, a criança
+(agente1) compreende que sua mãe (agente2) também tem o conhecimento que a criança sabe.
+Essa representação é o que Tomasello (#cite(<tomasello2019>, form: "year")) define como a “uma compreensão de outras
+pessoas como agentes intencionais semelhantes a si mesmos, cujas relações com entidades
+externas podem ser seguidas, direcionadas ou compartilhadas” #cite(<tomasello2019>, supplement: [p. 85] )
+
+
+
+
+(TOMASELLO, 2019, p.85)
+
+A segunda representação, ele nomeia de Autorrelação (Agente-Relação-Proposição),
+nesta situação, a criança sabe que a mãe vê o mesmo objeto que a criança está vendo e vice-
+versa.
+
+#figure(
+      image("../assets/imagens/relacao_biderecional.png", height: 5cm), 
+      caption: [Relação bidirecional
+.]
+    ) <Relacao_biredicional>
+
+Na situação de relação bidirecional é possível compreender que um dos sujeitos sabe
+que outro está observando o objeto. Exemplo:
+
+#set enum(numbering: "a)")
+#v(0.3cm)
++ [O bebê sabe que a mãe está olhando para o objeto.] ou
++ [A mãe sabe que o bebê está olhando para o objeto.]
+#v(0.3cm)
+
+Ainda segundo Baron-Cohen (2014), as representações triádicas retratam um salto
+qualitativo em relação às representações diádicas. Construir as representações triádicas é
+necessário para a consolidação da atenção conjunta que vai permanecer ocorrendo pelo resto
+da vida do ser humano, uma vez que ela é uma habilidade fundamental para a linguagem e para
+o desenvolvimento social.
+
+Na segunda metade da infância, as crianças tornam-se cada vez mais habilidosas em
+integrar a atenção social e a atenção aos objetos. Essa habilidade se desenvolve dentro de um
+sistema de interação triádica, envolvendo a criança, um objeto e outro indivíduo, segundo
+Adamson e Bakeman (1984).
+
+parei na PÁGINA 47
 
 
 #pagebreak()
