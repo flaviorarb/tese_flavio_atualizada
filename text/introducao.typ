@@ -1,4 +1,13 @@
-#heading(level: 1, numbering: none)[INTRODUÇÃO]
+// Páginas iniciais sem número (Capa, Sumário, etc.)
+#set page(
+  header: align(right)[
+    #context counter(page).display()
+  ]
+)
+
+#align(center)[
+  #heading(level: 1, numbering: none)[INTRODUÇÃO]
+]
 
 A ciência é viva, mutável e inacabada. Um fluído ou um espectro que toma determinadas
 formas de acordo com o momento científico das hipóteses (heurísticas) que estão atuando sobre elas. As teses construídas ao longo do tempo fortalecem as teorias e provocam interlocuções com outras de maior afinidade ou de objetos de estudos semelhantes, contribuindo para a expansão das ciências. Em determinados momentos, o que difere é apenas a perspectiva do pesquisador, assim como disse Saussure “o ponto de vista é que define o objeto” @saussure2012[p. 39] no início do século XX.
@@ -22,9 +31,9 @@ Apoiada nos resultados dos trabalhos de Costa Filho, concebemos esta tese cujo o
 
 Nossa hipótese sugere que a atenção conjunta assume uma nova especificidade quando ocorre em um contexto digital. Para isso é preciso verificar quais e de que forma as habilidades da AC assim como da ACV contribuem para a consolidação da Atenção Conjunta Digital.
 
-Para Tomasello (#cite(<tomasello2019>, form: "year")), há nove habilidades que podem ser empregadas de forma individual ou coletiva, são elas: engajamento conjunto, acompanhamento do olhar, acompanhamento do ato de apontar, imitação de atos instrumentais, imitação de atos arbitrários, reação a obstáculos sociais, uso de gestos imperativos e uso de gestos declarativos (incluindo gestos proximais como "mostrar" e gestos distais como "apontar”.
+Para Tomasello (#cite(<tomasello2019br>, form: "year")), há nove habilidades que podem ser empregadas de forma individual ou coletiva, são elas: engajamento conjunto, acompanhamento do olhar, acompanhamento do ato de apontar, imitação de atos instrumentais, imitação de atos arbitrários, reação a obstáculos sociais, uso de gestos imperativos e uso de gestos declarativos (incluindo gestos proximais como "mostrar" e gestos distais como "apontar”.
 
-Além dessas habilidades, analisaremos outros dois pontos centrais para a compreensão da AC. O primeiro ponto é a relação entre a AC e a linguística. No início do século XX, Saussure definiu a língua como o objeto da Linguística, através do qual se chegaria às outras manifestações da linguagem. Sendo assim as pesquisas e os trabalhos em Linguística que se relacionam e se justificam entre a língua/linguagem e a Atenção Conjunta são apoiados nos trabalhos de Bruner (#cite(<bruner1975>, form: "year"), #cite(<bruner1983>, form: "year")) e Tomasello (#cite(<tomasello2019>, form: "year")).
+Além dessas habilidades, analisaremos outros dois pontos centrais para a compreensão da AC. O primeiro ponto é a relação entre a AC e a linguística. No início do século XX, Saussure definiu a língua como o objeto da Linguística, através do qual se chegaria às outras manifestações da linguagem. Sendo assim as pesquisas e os trabalhos em Linguística que se relacionam e se justificam entre a língua/linguagem e a Atenção Conjunta são apoiados nos trabalhos de Bruner (#cite(<bruner1975>, form: "year"), #cite(<bruner1983>, form: "year")) e Tomasello (#cite(<tomasello2019br>, form: "year")).
 
 Logo, como caracterizar o estatuto da língua e da linguagem na Atenção Conjunta sob a ótica da Linguística? No Capítulo III, demonstraremos que existe um ponto de intersecção entre a Psicologia do Desenvolvimento e a Ciência da Linguagem, no qual o objeto língua/linguagem se constitui através da mediação triádica. Nesse cenário, emerge uma questão central: como se processa a Atenção Conjunta Digital em dispositivos como os livros interativos digitais, nos quais a figura de um sujeito humano — tradicionalmente atento às produções de linguagem da criança — parece ser deslocada ou substituída pela interatividade do suporte? 
 

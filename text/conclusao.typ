@@ -1,4 +1,15 @@
 
+
+// Exibe a numeração da página no canto superior direito conforme ABNT (seguindo a contagem do arquivo anterior)
+
+#set page(
+  header: align(right)[
+    #context counter(page).display()
+  ]
+)
+// =============================================================
+// 
+
 = Considerações finais
 
 Esta tese analisou o processo da teoria da atenção conjunta com o objetivo de analisar a Atenção Conjunta Digital (ACD) entre crianças e um livro interativo digital, por meio da mediação de um narrador virtual. Nossa hipótese foi confirmada, demonstrando que a Atenção Conjunta Digital ocorreu através do funcionamento linguístico multimodal. Observamos que a interação triádica, envolvendo a criança, o livro interativo digital e os comandos realizados pelos personagens ou pelo narrador virtual, promoveu um maior engajamento e atenção das crianças na história interativa.

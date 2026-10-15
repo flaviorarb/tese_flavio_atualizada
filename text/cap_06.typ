@@ -17,10 +17,20 @@
 }
 
 // ================================================================
+// 
+// Exibe a numeração da página no canto superior direito conforme ABNT (seguindo a contagem do arquivo anterior)
 
+#set page(
+  header: align(right)[
+    #context counter(page).display()
+  ]
+)
 
 #show heading.where(level: 2): set text(red)
 
+#align(center)[
+  #heading(level: 1, numbering: none)[CAPÍTULO VI] 
+]
 = DISCUSSÕES E ANÁLISE DOS RESULTADOS
 
 Nesta seção, iremos apresentar a análise dos corpora coletados durante a pesquisa sobre Atenção Conjunta Digital (ACD), explorando como esse processo se desenrolou nas interações
@@ -44,7 +54,7 @@ b) Gestos deícticos: os participantes utilizavam gestos em diversas situações
 c) Produção vocal: os participantes faziam comentários e perguntas sobre o que estavam
 observando.
 
-Essas ações demonstram que os participantes estavam envolvidos em ACD, indicando que essa forma de interação pode ser utilizada para promover a comunicação e colaboração entre as pessoas. A ferramenta empregada para transcrição e análise dos dados, o ELAN, e a concepção de Envelope Multimodal foram cruciais para identificar e compreender as diferentes formas de ACD que ocorreram nas interações entre os participantes. Adotamos, ademais, as três principais modalidades de interação da Atenção Conjunta — classificadas como Atenção de Verificação, Atenção de Acompanhamento e Atenção Direta —, conforme a taxonomia proposta por #cite(<tomasello2019>, form: "prose"). Desta forma, foi possível perceber as manifestações linguísticas produzidas entre os interlocutores das cenas enunciativas.
+Essas ações demonstram que os participantes estavam envolvidos em ACD, indicando que essa forma de interação pode ser utilizada para promover a comunicação e colaboração entre as pessoas. A ferramenta empregada para transcrição e análise dos dados, o ELAN, e a concepção de Envelope Multimodal foram cruciais para identificar e compreender as diferentes formas de ACD que ocorreram nas interações entre os participantes. Adotamos, ademais, as três principais modalidades de interação da Atenção Conjunta — classificadas como Atenção de Verificação, Atenção de Acompanhamento e Atenção Direta —, conforme a taxonomia proposta por #cite(<tomasello2019br>, form: "prose"). Desta forma, foi possível perceber as manifestações linguísticas produzidas entre os interlocutores das cenas enunciativas.
 
 A ordem de apresentação dos quadros foi disposta pela ordem de captação do material coletado. Todos os contextos de cena interativa foram produzidos a partir do momento que a criança iniciava a sua leitura depois da autorização do pesquisador.
 
@@ -480,7 +490,7 @@ Após essa análise visual, Rosa inicia sua leitura ereta com os braços cruzado
 
 Essas trocas de postura durante a leitura demonstram engajamento com a história revelando assim cenas de Atenção Conjunta entre Rosa e a história.
 
-O plano do olhar, que faz parte do envelope multimodal, é o primeiro recurso multimodal utilizado por Rosa. Logo no início da leitura de Rosa, foi possível observar o primeiro registro explícito de Atenção Conjunta Digital que se deu no intervalo de tempo (03:14), na linha 3 do @quadro_rosa. Rosa faz uma expressão facial com as extremidades da boca para baixo (num gesto de dúvida), registrando assim a atenção conjunta de verificação, #cite(<tomasello2019>, form: "prose").
+O plano do olhar, que faz parte do envelope multimodal, é o primeiro recurso multimodal utilizado por Rosa. Logo no início da leitura de Rosa, foi possível observar o primeiro registro explícito de Atenção Conjunta Digital que se deu no intervalo de tempo (03:14), na linha 3 do @quadro_rosa. Rosa faz uma expressão facial com as extremidades da boca para baixo (num gesto de dúvida), registrando assim a atenção conjunta de verificação, #cite(<tomasello2019br>, form: "prose").
 
 #subpar.grid(
   figure(image("/img/rosa/rosa_ACDa.png", height: 5cm), caption: [

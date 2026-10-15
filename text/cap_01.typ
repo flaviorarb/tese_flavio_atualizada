@@ -3,6 +3,14 @@
 #show figure: set block(breakable: true)
 #show figure: set figure(gap: 15pt)
 
+// Exibe a numeração da página no canto superior direito conforme ABNT (seguindo a contagem do arquivo anterior)
+
+#set page(
+  header: align(right)[
+    #context counter(page).display()
+  ]
+)
+
 // 1. Define que a legenda (caption) ficará no topo (top)
 
 #set figure.caption(position: top)
@@ -26,8 +34,9 @@
 
 #show heading.where(level: 2): set text(red)
 
-#heading(level: 1, numbering: none)[CAPÍTULO I] 
-
+#align(center)[
+  #heading(level: 1, numbering: none)[CAPÍTULO I] 
+]
 = O ESTADO DA ARTE SOBRE OS ESTUDOS DA ATENÇÃO CONJUNTA <sec:cap_01> 
 
 // #set heading(offset: 1)
@@ -276,7 +285,7 @@ A seguir temos uma tabela que contém os dados pesquisados sobre a Atenção Con
           Fonte: O autor (2024)
         ],
       ),
-    caption:[Trabalho de monografia produzidos nos repositórios da Capes e do BDTD no último quinquênio (2018-2023)], 
+    caption:[Trabalhos internacionais publicados nas bases Scoups e Web of Sience no último decênio (2012-2022)], 
   )
 ) 
 
