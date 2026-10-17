@@ -359,9 +359,136 @@ sobretudo a linguagem. #cite(<tomasello2019br>, supplement: [p.77])
 
 Inicia-se nesse período um processo de comunicação bastante complexo, pois é a partir desse reconhecimento do outro, que as relações são estabelecidas com o meio externo e podem ser acompanhadas, dirigidas ou compartilhadas. Tomasello Carpenter, Call, Behne e Moll #cite(<tomasello2005>) aprofundam a ideia de Bruner, ao proporem três estágios pelos quais a criança passa no momento que há a compreensão da ação intencional. Esses estágios surgem no primeiro ano de vida dos bebês, pois eles começam a demonstrar compreensão da ação intencional sobre as ações dos outros. 
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
++ Ação animada – os bebês conseguem reconhecer o próprio movimento muito cedo e logo passam a direcionar o olhar para a mesma direção de outras pessoas. É por volta dos 6 meses de vida que os bebês percebem o outro como um agente animado (mas ainda não intencional). As ações humanas são direcionadas ao objeto através do olhar;
++ A busca de objetivos – A partir dos 9 meses, os bebês são capazes de compreender atos diferentes produzidos por outros adultos e tentam entender qual é o objetivo específico. É nesse período que a criança consegue perceber a persistência do outro em relação a um determinado objeto mesmo que ele não seja bem-sucedido;
++ Planejamento de ações – Os bebês, por volta dos 14 meses, entendem as outras pessoas como agentes intencionais que são capazes de selecionar planos de ação para produzir objetivos em contextos específicos A criança é capaz de compreender a intencionalidade do outro em relação a um determinado objeto.
 
-parei na página 54
+A Atenção Conjunta, conforme destacado por Tomasello (#cite(<tomasello2019br>, form: "year")), emerge por volta dos nove meses de idade. Antes disso, a criança já está desenvolvendo competências cognitivas desde os primeiros meses de vida, por meio de interações face a face com os adultos. Durante esse período inicial, ocorrem processos de interações diádicas entre o bebê e o adulto, que se desenvolvem gradualmente ao longo do tempo. Esses processos começam nos dois primeiros meses de vida, quando o bebê começa a compreender os objetos ao seu redor, avançando depois para a compreensão das pessoas e, posteriormente, para a autocompreensão. Após os desenvolvimentos dessas competências cognitivas que acontecem por volta dos nove meses até o primeiro ano de vida, surgem novos comportamentos com interações que passam a ser desenvolvidas interações configuradas pelo triângulo referencial composto por uma criança, um adulto e um objeto, caracterizando interações triádicas, nas quais há a ligação entre a criança, o adulto e um objeto, que acreditamos ser pessoalizado quando esse objeto é um sujeito. Esse processo triádico é categorizado em três formas graduais de atenção conjunta: (i) atenção de verificação; (ii) atenção de acompanhamento; (iii) atenção direta. Essas categorias são subdivididas em períodos ou estágios, os quais não seguem um padrão temporal estático. As estimativas de tempo associadas a cada estágio são médias baseadas em observações realizadas em estudos conduzidos por Carpenter, Nagel, Tomasello (#cite(<carpenter1998social>, form: "year")), Corkun e Moore (#cite(<corkum_moore1998>, form: "year")), Barresi e Moore (#cite(<barresi_moore1996>, form: "year")). Durante o primeiro ano de vida, as crianças geralmente ainda não desenvolvem plenamente a capacidade de atenção conjunta. Já no segundo ano, elas começam a demonstrar habilidades de seguir a atenção alheia e direcionar a atenção dos outros para objetos ou eventos. No terceiro ano, as crianças alcançam um estágio mais avançado de atenção conjunta, caracterizado pela sua capacidade de lidar com formas mais complexas, evidenciado especialmente na aprendizagem e uso da linguagem.
+
+O início desse processo de interação triádica, na qual as crianças começam a
+desenvolver de forma gradual habilidades de interação social, #cite(<tomasello2019br>, form:"prose", supplement: [p.87]) fala de comportamentos que “a criança sintoniza com o adulto, como aqueles em que tenta fazer com que o adulto sintonize com ela - surgem de maneira típica entre nove e doze meses de idade”. Para o autor, é nesse período que as crianças começam e se conectar com a atenção e o comportamento dos adultos, desenvolvendo nove tipos de atenção conjunta. Porém Carpenter, Nagel, Tomasello (#cite(<carpenter1998social>, form: "year")), destacaram os três tipos principais mostrados no Quadro 3.
+
+// ************* Quadro - Os três tipos graduais de AC. *************
+
+#let img(path, w: 3cm) = {
+  if path != "" {
+    image(path, width: w)
+  } else {
+    // célula vazia se não houver imagem
+  }
+}
+#figure(
+  table(
+    columns: (auto, auto, auto),
+    table.header([*Atenção de verificação*], [*Atenção de acompanhamento*], [*Atenção direta*]),
+    align: (
+      center + horizon,    
+    ),
+
+    // Linha 1
+    [(9 - 12 meses)], [(11 - 14 meses)], [(13 - 15 meses)],
+    // Linha 2
+    [ #figure(
+      image("../assets/imagens/AC_9_12_01.png", height: 3cm),      
+    ) <atencao_conjunta_composicisonal>],[#figure(
+      image("../assets/imagens/AC_9_12_02.png", height: 3cm),      
+    ) <atencao_conjunta_composicisonal>],[#figure(
+      image("../assets/imagens/AC_9_12_03.png", height: 3cm),      
+    ) <atencao_conjunta_composicisonal>],
+
+    // Linha 3
+     [Envolvimento conjunto Obstáculo social Mostrar o objeto.], [Acompanhamento do Olhar / De indicação com o dedo, aprendizagem por imitação.], [Gesto imperativo de apontar, Gestos declarativos de apontar [linguagem referencial]],
+
+
+    // A última célula com stroke: none remove todas as bordas ao redor dela
+    table.cell(colspan: 3, stroke: none, align: left)[
+      #set text(size: 11pt)
+      #align(center)[Fonte: TOMASELLO (2019, p. 89)]      
+    ],
+  ),
+  caption: [Os três tipos graduais de AC.],
+  kind: "quadro",
+  supplement: [Quadro],
+) <quadro_tres_tipos_graduais_de_AC>
+
+O primeiro tipo é chamado de atenção de verificação, surge nos nove meses até os doze meses, essa atenção consiste em envolver o outro mostrando o objeto. O segundo surge entre os onze até os catorzes meses através do acompanhamento do olhar, o apontamento do dedo, também conhecido como acompanhamento do apontar, que é apreendido pela referência social. O terceiro tipo ocorre entre os treze meses e vai até os quinze, nesse estágio ocorre o uso dos gestos imperativos ou declarativos baseados na linguagem referencial.
+
+Acreditamos que a atenção conjunta triádica potencializa o desenvolvimento cognitivo do ser humano, pois surge, no processo de aquisição da linguagem e segue pelo resto da vida. É durante esse processo que as crianças passam a interagir com seus pares marcando o seu lugar na enunciação, reconhecendo-se e conhecendo o outro sujeito da intenção.
+
+Ao longo do tempo, os estudos sobre Atenção Conjunta (AC) revelaram algumas
+especificidades desse fenômeno. Hoje, é possível identificar estudos sobre tipos específicos de AC e em diferentes contextos, como a Atenção Conjunta Virtual, desenvolvida por Costa Filho (#cite(<costa_filho2011>, form: "year") #cite(<costa_filho2016>, form: "year") #cite(<costa_filho2017>, form: "year")#cite(<costa_filho-marianne2018>, form: "year") #cite(<costa_filho2021>, form: "year")). Esta tese apresenta uma nova especificidade da AC, voltada para a atuação da Atenção Conjunta Digital.
+
+== ATENÇÃO CONJUNTA VIRTUAL
+
+Partindo da Atenção Conjunta em seu formato convencional — caracterizado pela interação presencial e face a face entre dois indivíduos voltados a um objeto físico específico —, cabe questionar a possibilidade de manifestação de outros arranjos desse fenômeno. A literatura científica demonstra a viabilidade dessa ampliação conceitual, especialmente a partir dos estudos de Costa Filho (#cite(<costa_filho2011>, form: "year") #cite(<costa_filho2016>, form: "year") #cite(<costa_filho2017>, form: "year")#cite(<costa_filho-marianne2018>, form: "year")) sobre a Atenção Conjunta operada fora do eixo tríadico clássico (mãe, criança e objeto), nos quais o autor constatou uma alternância atencional dinâmica entre sujeitos situados em espaços distintos. Especificamente em sua pesquisa de mestrado, Costa Filho (2011) identificou que a relação estabelecida entre a criança e a obra audiovisual Desenho Animado Pocoyo propiciou, em um mesmo ambiente interacional, duas modalidades distintas de atenção conjunta: a primeira, de caráter clássico, consistiu na coatenção presencial entre dois sujeitos físicos em uma mesma cena, categorizada pelo pesquisador como formato real #footnote[O termo real, virtual, atual, são categorias que serão discutidas na próximas seções.]; a segunda, denominada formato virtual, caracterizou-se pelo engajamento atencional no qual a criança passou a interagir diretamente com o narrador da animação.
+
+Essa nova dinâmica interacional revelou uma modalidade inédita de manifestação da Atenção Conjunta (AC), operacionalizada mesmo diante da ausência de um interlocutor coautêntico no espaço físico imediato. Na cena em tela, a criança, o objeto e o narrador virtual — exercendo o papel de um tipo diferenciado de interlocutor, no caso do desenho animado Pocoyo — engajaram-se em um fluxo interativo convergente, ensejando a emergência de uma especificidade atencional denominada Atenção Conjunta Virtual (ACV). Essa categoria conceitual é definida por #cite(<costa_filho-marianne2018>, form: "prose", supplement: [p. 515]) como um "acontecimento entre sujeitos que interagem em espaços diferentes". Nessa mesma perspectiva analítica, os autores assinalam que a mediação virtual reconfigura os papéis tradicionais da tríade interacional, alterando não apenas os canais de engajamento perceptivo, mas também a própria natureza da reciprocidade comunicativa.
+
+#pad(left: 4cm)[
+  #set text(size: 11pt)
+  #set par(justify: true, leading: 0.5em)
+por meio da análise da Atenção Conjunta virtual que, independentemente da
+realidade em que estejam situados os sujeitos envolvidos na ação partilhada,
+o ponto de interseção dos referidos processos é a situação sobre a qual se
+constrói uma cena de Atenção Conjunta. #cite(<costa_filho2016>, supplement: [p.198])
+]
+
+Os parceiros da interação, na Atenção Conjunta Virtual, compartilham e agem ao
+mesmo tempo entre as realidades atual e virtual. Quando a virtualização se atualiza, ela passa a compor os espaços reais necessários para o processo da interação.
+
+Na tese de #cite(<costa_filho2016>, form: "prose"), o autor, investigou a emergência e o funcionamento da Atenção Conjunta no contexto da Realidade Virtual (RV). Ele argumenta que a RV pode ser um ambiente propício para a atenção conjunta, pois permite que as pessoas interajam com objetos e eventos de forma compartilhada, mesmo que estejam em espaços físicos distintos. Nesse cenário, o emprego dos atos de referência linguística — caracterizados como ações verbais voltadas ao direcionamento e ao compartilhamento da atenção sobre um referente específico — desempenha um papel estruturante na organização e na consolidação da linguagem infantil, ao favorecer tanto a apreensão do entorno quanto o desenvolvimento das competências sociointeracionais da criança. Com o propósito de averiguar como o processo atencional se constitui no engajamento com o meio virtual e de que maneira concorre para a consolidação da referência nesse ambiente interativo diferenciado, o autor realizou um estudo empírico com três grupos de crianças, na faixa etária de 22 a 65 meses, tendo como foco de análise a mediação pelo jogo Mimi.
+ 
+Conforme ressaltam #cite(<costa_filho-marianne2018>, form: "prose"), as investigações sobre a Atenção Conjunta no âmbito da Linguística brasileira adquiriram expressivo relevo no campo da Aquisição da Linguagem, sobretudo sob as abordagens interacionista e multimodal. Nessa perspectiva, ganham centralidade as pesquisas dedicadas à linguagem infantil e aos processos comunicativos estabelecidos entre a criança e seus interlocutores nos contextos familiar e escolar. Tais estudos evidenciam como a construção da atenção compartilhada se estrutura por meio de manifestações verbais, não verbais ou pela intrínseca articulação de múltiplos recursos semióticos, reafirmando o caráter essencialmente multimodal das interações humanas precoces.
+
+As pesquisas se desdobraram no solo brasileiro em trabalhos que passaram a tratar de uma Atenção Conjunta Virtual através de animações interativas na TV ou jogos interativos de dispositivos como tablets. Até aquele momento não havia nenhum trabalho referente a esta temática e após a nossa pesquisa, o cenário praticamente não mudou revelando a importância dos trabalhos produzidos por Costa Filho (#cite(<costa_filho2011>, form: "year") #cite(<costa_filho2016>, form: "year") #cite(<costa_filho2017>, form: "year")#cite(<costa_filho-marianne2018>, form: "year")) 
+
+O surgimento de novos estudos sobre AC possibilita ampliar essas especificidades. Até pouco tempo atrás os estudos de Atenção Conjunta eram voltados para apenas dois tipos de pesquisas: o primeiro tratava apenas dos estudos relacionados aos dois primeiros anos de vida dos bebês e o segundo tipo estava focado nos períodos mais longos de atenção visual conjunta,
+em crianças a partir dos 2 anos de idade que começam a adquirir suas primeiras convenções linguísticas #cite(<tomasello2014a>).
+
+
+À medida que a criança se desenvolve, as interações de atenção conjunta tornam-se mais complexas. Isso deu origem a novos campos de pesquisa sobre Atenção Conjunta, que vão além dessa fase do desenvolvimento humano. Dentro dessas novas investigações, incluem-se os estudos de Costa Filho (#cite(<costa_filho2011>, form: "year") #cite(<costa_filho2016>, form: "year") #cite(<costa_filho2017>, form: "year")#cite(<costa_filho-marianne2018>, form: "year")) e Rêgo Barros (#cite(<barros_fonte2020_enanpoll>, form: "year")), bem como esta tese que aborda a Atenção Conjunta Digital, explorando novas formas de interação conjunta. Segundo Costa Filho (#cite(<costa_filho2016>, form: "year")), a dinâmica da Atenção Conjunta foi transformada, surgindo um interlocutor que não está fisicamente presente, mas que se manifesta virtualmente, originando uma nova especificidade denominada Atenção Conjunta Virtual.
+
+No entanto, o que se altera em relação à Atenção Conjunta tradicional? Para
+compreender essas duas novas instâncias, é essencial entender as definições de realidade, virtualidade, presente e possibilidade.
+
+Na próxima subseção, procurarei elucidar essas terminologias para facilitar nossa compreensão, pois muitas pessoas têm uma compreensão equivocada sobre o virtual.
+
+== O virtual e o real são opostos?
+
+Podemos iniciar afirmando que não o real e virtual não são opostos, segundo os estudos do filósofo e sociólogo franco-canadense Pierre Lévy, conhecido por seu trabalho nos campos da ciência da informação, comunicação e filosofia. Ele discute a diferença entre "real" e "atual" em seu livro "O Que é o Virtual?" publicado no ano de 2011. Nessa obra, Lévy explora o conceito de virtualidade de maneira profunda e provocativa. O livro examina o virtual não apenas como algumas tecnologias, mas como uma dimensão fundamental da realidade
+contemporânea.
+
+Pierre Lévy (#cite(<levy2011>, form: "year")) argumenta que o virtual não se limita à tecnologias digital ou à simulação de mundos digitais, mas é uma dimensão que permeia todos os aspectos da vida moderna. Assim a virtualização está presente no corpo, no texto, na economia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+parei na página 58
+
+ . 
+ 
+
+
+
+
 
 
 // ============== FIGURA ==============
