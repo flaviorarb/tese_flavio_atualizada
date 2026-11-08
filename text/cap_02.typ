@@ -460,28 +460,121 @@ contemporânea.
 
 Pierre Lévy (#cite(<levy2011>, form: "year")) argumenta que o virtual não se limita à tecnologias digital ou à simulação de mundos digitais, mas é uma dimensão que permeia todos os aspectos da vida moderna. Assim a virtualização está presente no corpo, no texto, na economia.
 
+Além de ampliar o conceito para incluir o virtual como uma dimensão da realidade que transcende o físico. O virtual, para Lévy, é uma potência de ser que ainda não se realizou, mas
+que possui a capacidade de se tornar real.
+
+Lévy explora também como o conceito de virtualidade se aplica à comunicação, à
+cognição, à cultura e à sociedade. Ele argumenta que a virtualidade está presente nas redes de
+comunicação, na formação de identidades digitais, na criação colaborativa de conhecimento e na evolução da cultura digital. O autor também discute a ideia de que o virtual é um espaço de
+potencialidades, onde novas formas de interação e criação podem surgir. Ele destaca a importância da inteligência coletiva e da colaboração na construção de ambientes virtuais ricos
+e significativos.
+
+Segundo Lévy (#cite(<levy2011>, form: "year")), o real não é oposição do virtual, pois o virtual é uma parte
+integrante da nossa experiência cotidiana, sendo igualmente relacionado à realidade. O que se opõe ao virtual é o atual e o que opõe o real é tudo aquilo que é possível.
+
+Sendo assim, é preciso compreender que o virtual está muito além do meio digital, dessa maneira o virtual está em qualquer coisa, assim o virtual também está presente fora do contexto tecnológico. Lévy apresenta diversas situações que demonstram a presença do virtual em
+diversos contextos totalmente distintos das tecnologias. O virtual é ubíquo, sendo assim é
+possível perceber o virtual no processo ontogênico do desenvolvimento do ser humano. A Figura 15 mostra, de forma hipotética, sete fases da vida de um ser humano, desde a infância
+até a velhice. Partindo da fase do bebê representada pela silhueta preta de uma criança engatinhando, todas as próximas fases que esse bebê passará na sua vida se tornarão reais no momento que elas forem atualizadas.
 
 
+// ============== FIGURA ==============
+#v(1em)
+#v(0.5cm)
+#grid(
+  columns: 100%,
+  rows: (auto, auto),
+  row-gutter: 0.3cm, // Espaço entre a figura e a fonte
+  align: center,
+  [
+    #figure(
+      image("../assets/imagens/A oposicao entre o virtual e o real.png", height: 6cm), 
+      caption: [A oposição entre o virtual e o real.]
+    ) <a_oposicao_entre_o_birtual_e_o_real>
+  ],
+  [
+    #text(size: 0.85em)[Fonte: O autor (2024).]
+  ]
+)
+#v(0.5cm)
+
+// ============== FIGURA ============== 
+
+A imagem retrata como se dá o virtual no contexto biológico: Ao nascer, o ser humano
+está “programado” para passar por todos os estágios retratados na imagem 05 que vai do
+nascimento até a velhice, porém enquanto ainda não ocorreram, estarão no plano virtual. No
+momento que o ser humano chega em uma determinada fase da vida como por exemplo a
+segunda infância, conforme é possível visualizar na imagem no tom de cinza mais escuro, com
+a seta especificando como atual, dizemos que ocorreu uma atualização de um estágio. É a
+materialização daquilo que era virtual e agora torna-se real.
+
+Assim, segundo Lévy (#cite(<levy2011>, form: "year")), o virtual está presente em tudo, pois tudo que há em
+potência e virá a acontecer é virtual. Desta forma, a partir deste ponto devemos diferenciar a
+Atenção Conjunta de suas especificidades. Nomearemos a Atenção Conjunta na sua essência,
+no seu formato inicial como, simplesmente, Atenção Conjunta (AC).
+
+A realidade ou o real é tudo aquilo que acontece agora e tudo aquilo que é material,
+físico como por exemplo: uma pessoa, um carro etc. Porém se um compositor criar uma música
+com a melodia, a letra, os acordes, os arranjos e publicá-la, mesmo assim ela não será real
+enquanto não for reproduzida. Ela nunca será real, ela sempre estará no plano virtual. “As
+quatros estações” de Antonio Vivaldi estão no plano virtual, ela só se tornará real se alguém
+tocá-la, o som propagado é a sua materialidade. É neste ponto que o real difere do atual. Quando
+esta música for tocada, ela estará atualizando e tornando-se realidade.
 
 
+Isso ocorre também na língua humana. “Desde suas origens mesopotâmicas, o texto é
+um objeto virtual, abstrato, independente de um suporte específico” (Lévy, 2011, p. 35). O autor
+ainda vai dizer que o texto é uma entidade virtual que sempre se atualiza nas mais variadas
+formas, como edições, exemplares cópias. Toda língua é virtual pois ela está em um plano metafísico, a língua só se materializa, torna-se real quando ela é atualizada por um falante,
+quando um sujeito se enuncia.
+
+Benveniste (#cite(<benveniste2006>, form: "year")), o linguista da enunciação, já havia afirmado que a língua é uma
+possibilidade de acontecer, isto é, tudo o que é possibilidade está no plano virtual. Quando a
+língua é colocada em funcionamento através da enunciação, ela materializa-se revelando aos
+sujeitos no processo de interação que eles são agentes intencionais e em atenção conjunta.
+
+// ============== FIGURA ==============
+#v(1em)
+#v(0.5cm)
+#grid(
+  columns: 100%,
+  rows: (auto, auto),
+  row-gutter: 0.3cm, // Espaço entre a figura e a fonte
+  align: center,
+  [
+    #figure(
+      image("../assets/imagens/A_lingua_no_plano_virtual_atual_e_real.png", height: 6cm), 
+      caption: [A oposição entre o virtual e o real.]
+    ) <sssss>
+  ],
+  [
+    #text(size: 0.85em)[Fonte: O autor (2024).]
+  ]
+)
+#v(0.5cm)
+
+// ============== FIGURA ============== 
+Sendo assim, quando há uma interação triádica, em uma cena de atenção conjunta, entre
+dois sujeitos dialogando, está ocorrendo uma atenção conjunta virtual.
+
+Podemos ir mais além, não é preciso os dois interlocutores estarem presentes no mesmo
+espaço físico. A tecnologias, em especial o telefone, permitiu a transmissão de sons por meio
+de sinais elétricos.
+A telefonia desempenhou um papel fundamental na viabilização da
+comunicação instantânea, crucial para a forma como nos comunicamos atualmente. Ela permite
+a ocorrência de cenas de atenção conjunta entre pessoas, estejam a centímetros de distância ou
+a milhares de quilômetros. Essas experiências não estão mais restritas a espaços físicos,
+ganhando uma dimensão muito maior com a virtualização.
+
+Quando a Atenção Conjunta Virtual é mediada por dispositivos digitais, emerge um
+processo de comunicação híbrido, integrando o real e o virtual. Os participantes dessa interação
+compartilham e agem simultaneamente nas realidades atual e virtual. No entanto, é importante
+notar que essas realidades coexistem em espaços distintos: o físico e o digital.
+
+#v(3cm)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-parei na página 58
+parei na página 62
 
  . 
  
