@@ -458,7 +458,7 @@ Na próxima subseção, procurarei elucidar essas terminologias para facilitar n
 Podemos iniciar afirmando que não o real e virtual não são opostos, segundo os estudos do filósofo e sociólogo franco-canadense Pierre Lévy, conhecido por seu trabalho nos campos da ciência da informação, comunicação e filosofia. Ele discute a diferença entre "real" e "atual" em seu livro "O Que é o Virtual?" publicado no ano de 2011. Nessa obra, Lévy explora o conceito de virtualidade de maneira profunda e provocativa. O livro examina o virtual não apenas como algumas tecnologias, mas como uma dimensão fundamental da realidade
 contemporânea.
 
-Pierre Lévy (#cite(<levy2011>, form: "year")) argumenta que o virtual não se limita à tecnologias digital ou à simulação de mundos digitais, mas é uma dimensão que permeia todos os aspectos da vida moderna. Assim a virtualização está presente no corpo, no texto, na economia.
+Pierre Lévy (#cite(<levy2011>, form: "year")) argumenta que o virtual não se limita à tecnologias digitais ou à simulação de mundos digitais, mas é uma dimensão que permeia todos os aspectos da vida moderna. Assim a virtualização está presente no corpo, no texto, na economia.
 
 Além de ampliar o conceito para incluir o virtual como uma dimensão da realidade que transcende o físico. O virtual, para Lévy, é uma potência de ser que ainda não se realizou, mas
 que possui a capacidade de se tornar real.
@@ -474,7 +474,7 @@ integrante da nossa experiência cotidiana, sendo igualmente relacionado à real
 
 Sendo assim, é preciso compreender que o virtual está muito além do meio digital, dessa maneira o virtual está em qualquer coisa, assim o virtual também está presente fora do contexto tecnológico. Lévy apresenta diversas situações que demonstram a presença do virtual em
 diversos contextos totalmente distintos das tecnologias. O virtual é ubíquo, sendo assim é
-possível perceber o virtual no processo ontogênico do desenvolvimento do ser humano. A Figura 15 mostra, de forma hipotética, sete fases da vida de um ser humano, desde a infância
+possível perceber o virtual no processo ontogênico do desenvolvimento do ser humano. A @a_oposicao_entre_o_virtual_e_o_real mostra, de forma hipotética, sete fases da vida de um ser humano, desde a infância
 até a velhice. Partindo da fase do bebê representada pela silhueta preta de uma criança engatinhando, todas as próximas fases que esse bebê passará na sua vida se tornarão reais no momento que elas forem atualizadas.
 
 
@@ -490,7 +490,7 @@ até a velhice. Partindo da fase do bebê representada pela silhueta preta de um
     #figure(
       image("../assets/imagens/A oposicao entre o virtual e o real.png", height: 6cm), 
       caption: [A oposição entre o virtual e o real.]
-    ) <a_oposicao_entre_o_birtual_e_o_real>
+    ) <a_oposicao_entre_o_virtual_e_o_real>
   ],
   [
     #text(size: 0.85em)[Fonte: O autor (2024).]
@@ -558,7 +558,7 @@ Sendo assim, quando há uma interação triádica, em uma cena de atenção conj
 dois sujeitos dialogando, está ocorrendo uma atenção conjunta virtual.
 
 Podemos ir mais além, não é preciso os dois interlocutores estarem presentes no mesmo
-espaço físico. A tecnologias, em especial o telefone, permitiu a transmissão de sons por meio
+espaço físico. As tecnologias, em especial o telefone, permitiu a transmissão de sons por meio
 de sinais elétricos.
 A telefonia desempenhou um papel fundamental na viabilização da
 comunicação instantânea, crucial para a forma como nos comunicamos atualmente. Ela permite
@@ -566,15 +566,135 @@ a ocorrência de cenas de atenção conjunta entre pessoas, estejam a centímetr
 a milhares de quilômetros. Essas experiências não estão mais restritas a espaços físicos,
 ganhando uma dimensão muito maior com a virtualização.
 
-Quando a Atenção Conjunta Virtual é mediada por dispositivos digitais, emerge um
-processo de comunicação híbrido, integrando o real e o virtual. Os participantes dessa interação
-compartilham e agem simultaneamente nas realidades atual e virtual. No entanto, é importante
+Quando a Atenção Conjunta Virtual é mediada por dispositivos digitais, emerge um processo de comunicação híbrido, integrando o real e o virtual. Os participantes dessa interação compartilham e agem simultaneamente nas realidades atual e virtual. No entanto, é importante
 notar que essas realidades coexistem em espaços distintos: o físico e o digital.
+
+O termo 'espaço digital' refere-se ao ambiente virtual ou eletrônico no qual a informação é armazenada, compartilhada e processada por meio de tecnologias como computadores e redes de comunicação. Trata-se de um conceito abrangente que engloba diversas facetas da vida contemporânea, tais como a internet, dispositivos eletrônicos, softwares, redes sociais, entre outros recursos. O espaço digital continua a evoluir à medida que as tecnologias avançam e as interações sociais se transformam. Ele desempenha um papel central em nossa vida cotidiana e na economia global, afetando o modo como trabalhamos, nos comunicamos, nos divertimos e acessamos informações. Como resultado, questões como privacidade, segurança e ética digital tornam-se cada vez mais relevantes nesse ambiente.
+
+É fundamental compreender que a Atenção Conjunta Virtual não se limita à ausência física de um dos interlocutores; é crucial lembrar que a materialidade está constantemente
+atualizando o processo da realidade, como citamos anteriormente. Entendemos a realidade como a atualização dos acontecimentos em nossas vidas, representando nosso presente, o aqui e agora, a própria essência da existência. Muitos erroneamente associam o real apenas ao tangível, ao visível e ao palpável. No entanto, esse conceito é equivocado. Assim, a atenção conjunta ocorre não apenas entre dois interlocutores face a face, mas também quando o
+elemento unificador de suas intenções não é um objeto material, físico ou palpável.
+
+Um exemplo claro desse fenômeno é o diálogo. Conforme observado por Costa Filho (2011) em sua pesquisa sobre a atenção conjunta no desenho Pocoyo, inicialmente, a criança
+estava envolvida em um processo triádico com sua cuidadora, passando o desenho a ser o objeto de interação. Contudo, em determinado momento, surge um terceiro interlocutor, nesse
+momento a criança passa a alternar sua atenção entre sua cuidadora e esse interlocutor. Nesse processo de troca, o interlocutor do desenho se torna um "sujeito virtual" ou "entidade virtual", dando origem à Atenção Conjunta Virtual.
+
+Esse processo de virtualização também se estende ao objeto do processo triádico de interação, como ilustrado no esquema a seguir.
+
+
+// ============== FIGURA ==============
+#v(1em)
+#v(0.5cm)
+#grid(
+  columns: 100%,
+  rows: (auto, auto),
+  row-gutter: 0.3cm, // Espaço entre a figura e a fonte
+  align: center,
+  [
+    #figure(
+      image("../assets/imagens/triade_da_atencao_conjunta_virtual.png", height: 6cm), 
+      caption: [Tríade da atenção conjunta virtual.]
+    ) <triade_da_atencao_conjunta_virtual>
+  ],
+  [
+    #text(size: 0.85em)[Fonte: O autor (2024).]
+  ]
+)
+#v(0.5cm)
+
+// ============== FIGURA ============== 
+
+A @triade_da_atencao_conjunta_virtual representa a interlocução entre dois sujeitos que estão engajados com um objeto — a língua — que não é algo físico ou palpável. A linguagem ou a língua natural, como a língua portuguesa, é um exemplo notável de objeto virtual. A língua é inerentemente virtual e passa por atualizações cada vez que é enunciada pelo locutor por meio do discurso. Sua existência se manifesta quando alguém utiliza os símbolos linguísticos, como fonemas ou grafemas, ativando a língua e transformando-a de virtual em real. Nesse processo, o elemento linguístico (a língua) deixa de ser apenas virtual e se materializa, incorporando-se ao meio real por meio de ondas sonoras ou de registros gráficos.
+
+Assim, quando o processo triádico de interação se torna mais complexo, envolvendo elementos não materiais como foco dessa interação, configura-se a Atenção Conjunta Virtual. Isso ocorre porque um dos elementos da tríade não está presente de forma tangível, tornando-se parte de uma interação que transcende a materialidade. Quando um desses elementos da interação estiver em um espaço digital, uma nova especificidade da Atenção Conjunta surge. Essa especificidade será discutida na próxima seção, que tratará especificamente da Atenção Conjunta Digital."
+
+== A ATENÇÃO CONJUNTA DIGITAL
+
+As inovações tecnológicas sempre trouxeram consigo novas maneiras de ver o mundo, de agir e de interagir com ele. Foi assim com a escrita, com o telefone e com a criação dos
+computadores. A era digital, como um conceito amplo, não possui uma data específica de surgimento, mas pode ser associada ao desenvolvimento e à disseminação das tecnologias digitais ao longo do século XX e início do século XXI.  O digital é uma tecnologia eletrônica que usa dois estados, positivo e não positivo, para produzir, armazenar e processar dados. Esses estados são gerados por impulsos elétricos dentro de uma máquina, nos quais cada pulso elétrico é considerado positivo e representado pelo número 1, e a ausência desse impulso corresponde ao estado não positivo, representado pelo número 0.
+
+Portanto, os dados transmitidos ou armazenados com tecnologias digitais são expressos como uma sequência de 0's (zeros) e 1's (uns); esse formato numérico é conhecido como o sistema binário. Cada um desses dígitos de estado é chamado de bit (e uma sequência de bits que um computador pode endereçar individualmente como um grupo é um byte). A digitalização envolve a conversão de dados analógicos (como som, imagens ou informações contínuas) em formato digital, que pode ser armazenado, processado e transmitido por dispositivos eletrônicos, como computadores e smartphones.
+
+O advento da internet e, concomitantemente, das Tecnologias Digitais de Informação e Comunicação (TDIC) contribuiu para a disseminação da comunicação. Os sujeitos estão cada dia mais conectados ou utilizando algum recurso tecnológico (cf. Rêgo Barros, #cite(<barros2018>, form: "year")). Em ambiente virtual, somos levados a estabelecer comportamentos que não cabem no mundo real,
+assim como passamos a tecer outras linguagens.
+
+Antes restrita a pequenos grupos, sobretudo formados por adultos, as tecnologias digitais já fazem parte da realidade do ser humano e têm modificado o cotidiano e os tipos de relações sociais, inclusive das crianças. Acostumadas à presença das mais diversas formas tecnológicas, é difícil encontrar uma criança que não saiba mexer em um celular. Muitas delas já utilizam equipamentos como smartphones e tablets muito antes de dominarem a aquisição da linguagem oral ou escrita. Esse fato corrobora com o que Rêgo Barros (#cite(<barros2018>, form: "year")) já afirmara ainda em 2014 que quase 47% da população brasileira já acessavam a internet pelo celular, sete anos depois esse número saltou para 64% em 2021, segundo a última pesquisa realizada pelo Comitê Gestor da Internet no Brasil (#cite(<cgibr2024ticdomicilios>, form: "year")).
+
+O uso das tecnologias ficou mais evidente com a pandemia da covid-19, que forçou as escolas a adotarem o ensino remoto entre os anos de 2020 e 2021. Pais e professores se uniram
+num esforço conjunto para proporcionar aos alunos a aquisição do conhecimento em aulas que passaram a ser ministradas por meio de salas virtuais.
+
+Nesse contexto, acreditamos que a Atenção Conjunta está inserida também no meio digital. Se ainda há poucos trabalhos voltados para a interlocução entre a AC e a linguística, pode-se afirmar que a Atenção Conjunta voltada para o uso das tecnologias ainda é muito rara.
+
+Entretanto, observamos que quando um dos elementos envolvidos na atenção conjunta é representado por um dispositivo tecnológico que utiliza a linguagem binária, ou seja, a linguagem dos computadores, surge uma especificidade distinta que denominamos de Atenção
+Conjunta Digital. Essa segunda variante se diferencia da Atenção Conjunta Virtual ao exigir exclusivamente o uso do meio digital para sua concretização, ao passo que a Atenção Conjunta Virtual pode ocorrer sem depender de recursos tecnológicos. Para uma compreensão mais aprofundada dessa nova subcategoria de Atenção Conjunta, a @A_AC_e_suas_duas_especificidades_a_ACV_e_a_ACD a seguir esquematiza a relação entre cada especificidade presente nesse fenômeno.
+
+// ============== FIGURA ==============
+#v(1em)
+#v(0.5cm)
+#grid(
+  columns: 100%,
+  rows: (auto, auto),
+  row-gutter: 0.3cm, // Espaço entre a figura e a fonte
+  align: center,
+  [
+    #figure(
+      image("../assets/imagens/A_AC_e_suas_duas_especificidades_a_ACV_e_a_ACD.png", height: 10cm), 
+      caption: [A atenção conjunta e suas duas especificidades: a atenção conjunta virtual e a Atenção Conjunta
+Digital.]
+    ) <A_AC_e_suas_duas_especificidades_a_ACV_e_a_ACD>
+  ],
+  [
+    #text(size: 0.85em)[Fonte: O autor (2024).]
+  ]
+)
+#v(0.5cm)
+
+// ============== FIGURA ============== 
+
+
+A @A_AC_e_suas_duas_especificidades_a_ACV_e_a_ACD mostra como as especificidades da ACV e ACD estão inseridas dentro da
+AC. A Atenção Conjunta na área azul é o processo clássico, no qual envolve dois sujeitos que
+estão com o foco em um mesmo objeto. Essas três entidades estão no plano físico sendo
+atualizadas a todo momento, por serem elementos materializados.
+
+A segunda área em amarelo é a Atenção Conjunta Virtual, uma variação da atenção conjunta clássica. Nesse processo o objeto que é o foco da atenção dos interlocutores pode ser,
+ou não, algo físico/material. Não sendo algo material, o objeto da ACV pode ser representado por algum elemento virtual ou algum elemento digital. No esquema da @A_AC_e_suas_duas_especificidades_a_ACV_e_a_ACD, representamos dois sujeitos presentes fisicamente em uma cena interativa; o objeto que é o foco da Atenção Conjunta desses dois indivíduos pode ser um diálogo, que está no plano virtual, ou um recurso presente em um plano digital situado em um dispositivo eletrônico.
+
+Na ACV, sempre alguma entidade que está nas extremidades do triângulo não será um elemento físico, normalmente é o objeto ou evento que deve estar no meio virtual e se atualiza a cada vez que esses sujeitos se enunciam de forma recíproca materializando esses conceitos ou diálogos.
+
+A terceira área na cor vermelha é representada pela Atenção Conjunta Digital que está contida dentro da Atenção Conjunta Virtual. A ACD é uma especificidade que só ocorrerá
+quando uma das entidades da extremidade do triângulo estiver em um meio digital. A ACD ocorre quando utilizamos os recursos tecnológicos presentes nos aparelhos eletrônicos digitais como um dos elementos da interação triádica. Pode ser um objeto, como um jogo eletrônico;
+um aplicativo ou uma entidade virtual (sujeito).
+
+O grau de complexidade e interconexão evidenciado na Atenção Conjunta Virtual (ACV) e na Atenção Conjunta Digital (ACD) não se manifesta imediatamente no início do desenvolvimento da atenção conjunta, por volta dos nove meses de idade. Nesse estágio inicial, os processos de interação que delineiam o desenvolvimento cognitivo ocorrem de maneira relativamente simples, predominantemente por meio da Atenção Conjunta clássica. Com o decorrer do tempo, entretanto, essa ação compartilhada se torna mais intrincada, especialmente à medida que o processo de aquisição da linguagem se consolida e o sujeito incorpora sua língua materna.
+
+Essa crescente no processo de interação triádica promovida pelo desenvolvimento das habilidades cognitivas e sociais é fundamental para a aquisição da linguagem. Segundo Bruner (#cite(<Wood_bruner_ross1976>, form: "year")), a criança, ao adquirir a linguagem, escalona seu aprendizado por meio de resoluções de problemas que normalmente podem ser atingidas sem nenhuma ajuda; esse escalonamento confere a ela uma autonomia comunicativa pela qual podemos inferir que já adquiriu as habilidades necessárias ao uso básico das estruturas linguísticas de sua língua. Porém, dentro de um contexto social, Bruner (#cite(<Wood_bruner_ross1976>, form: "year")) afirma que a criança passa a atuar em uma instância de modelagem e imitação ao interagir com os adultos, ocorrendo um tipo de “processo de ‘andaime’” #cite(<Wood_bruner_ross1976>, supplement: [p.90]). Esse termo "andaime" é usado metaforicamente para descrever as estruturas de apoio que os educadores oferecem aos aprendizes à medida que se envolvem em tarefas ou conceitos mais complexos. Dessa forma, possibilita-se à criança passar a fazer coisas que estariam além de suas capacidades.
+
+Tomasello (2019, p. 72) afirma que, em um determinado período (4 a 5 anos), há um equilíbrio entre a ação de imitar o outro e a decisão de utilizar suas habilidades cognitivas de forma autônoma. Esse processo de andaime é potencializado quando a interação com o outro passa a ser feita por meio do diálogo, pois é nesse contexto que a Atenção Conjunta Virtual e, posteriormente, a Atenção Conjunta Digital começam a se manifestar. O andaime é muito mais que uma ajuda; é uma forma especial de suporte que as crianças (alunos) têm para o crescimento de novas habilidades, conceitos ou níveis de compreensão, de acordo com Gibbons (2015). Dentro do nosso estudo, o uso do livro interativo digital pelas crianças constitui um momento de atualização de tudo o que foi construído entre os 9 e 24 meses, pois o conceito de andaime, desenvolvido por Bruner, equivale à superposição das camadas mais básicas da Atenção Conjunta que deram a sustentação para a criança passar da AC para a ACV, até chegar à Atenção Conjunta Digital na contemporaneidade
+
+E essa Atenção Conjunta Digital começa a acontecer só depois que a criança começa a
+utilizar os equipamentos eletrônicos digitais como smartphones e tablets. Esses dispositivos podem promover processos de atenção conjunta. Mas para que isso ocorra, é fundamental que os conteúdos presentes nesses dispositivos sejam pensados para promover a Atenção Conjunta Digital. Assim, acreditamos que ACD aplicada nos Livros Digitais, de forma correta, produzirá interação entre a criança e o objeto. Quando isso acontece, muda o processo de leitura diádica, que é o foco natural, para uma leitura triádica com foco na interação com um interlocutor, passando a resultar, assim, nessa nova forma de atenção a que demos o nome de Atenção Conjunta Digital.
+
+Chamamos a atenção para a compreensão de que entendemos o Livro Interativo Digital
+(LID) a partir da presença de um interlocutor virtual, diferentemente da maioria dos produtos apresentados como livros digitais no mercado brasileiro, que têm apenas a característica de mudança de suporte: o que outrora era publicado em papel, passa a ser publicado no formato e-book. Esse formato, por si só, não gera Atenção Conjunta, pois a interação se dá de forma didática como se a criança estivesse com um livro físico nas mãos, a leitura se dá de forma passiva, o que muda é apenas o suporte.
+
+Abro aqui um parêntese para esclarecer que, quando nos referimos a uma leitura passiva, estamos relacionando esse termo diretamente com a aprendizagem ativa, que pode ser considerada um conceito abrangente, com a leitura ativa sendo uma de suas formas específicas.
+
+A forma como alguém realiza a sua leitura impacta diretamente no seu aprendizado.
+Para Bonwell; Eison (1991), muitos professores acreditam que toda aprendizagem é ativa por natureza, argumentando que os alunos estão envolvidos ativamente mesmo durante palestras formais na sala de aula. No entanto, segundo Chickering e Camson, 1987, a aprendizagem ativa vai além de simplesmente ouvir; os alunos também devem participar ativamente lendo, escrevendo, discutindo ou resolvendo problemas para realmente absorver e compreender o conteúdo. Desta forma
+
+
+
+----------------------------------- 
+
+
+
+----------------------------- 
 
 #v(3cm)
 
 
-parei na página 62
+parei na página 68 na citação observação falta inserir citaçoes nas paginas 66 e 67
 
  . 
  
