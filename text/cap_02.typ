@@ -684,7 +684,7 @@ A forma como alguém realiza a sua leitura impacta diretamente no seu aprendizad
 Para Bonwell; Eison (1991), muitos professores acreditam que toda aprendizagem é ativa por natureza, argumentando que os alunos estão envolvidos ativamente mesmo durante palestras formais na sala de aula. No entanto, segundo Chickering e Camson, 1987, a aprendizagem ativa vai além de simplesmente ouvir; os alunos também devem participar ativamente lendo, escrevendo, discutindo ou resolvendo problemas para realmente absorver e compreender o conteúdo. Desta forma
 
 
-
+zsacdasdsadasd 
 ----------------------------------- 
 
 
